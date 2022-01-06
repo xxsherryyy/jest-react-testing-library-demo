@@ -1,6 +1,5 @@
 import logo from './octopus.png';
 import './App.css';
-import TestButton from './components/TestButton';
 import TestQuiz from './components/TestQuiz';
 
 function App() {
@@ -16,10 +15,9 @@ function App() {
         >
           Learn React
         </a>
-        <TestButton/>
         <TestQuiz/>
       </header>
-      <div>HIHI</div>
+      <div></div>
     </div>
   );
 }
